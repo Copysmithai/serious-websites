@@ -6,8 +6,8 @@ services:
     expose:
       - 3000
     environment:
-      VIRTUAL_HOST: localhost,serious-websites.club
-      LETSENCRYPT_HOST: serious-websites.club
+      VIRTUAL_HOST: localhost,shittycompanyinabox.com
+      LETSENCRYPT_HOST: shittycompanyinabox.com
       LETSENCRYPT_EMAIL: briangu33@gmail.com
   nginx-proxy:
     image: jwilder/nginx-proxy

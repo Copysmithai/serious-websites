@@ -41,11 +41,8 @@ const styles: {
 };
 
 const links = {
-  twitter: 'http://twitter.com/darkforest_eth',
-  email: 'mailto:contact@zkga.me',
-  blog: 'https://blog.zkga.me/',
-  telegram: 'https://t.me/zk_forest',
-  github: 'https://github.com/darkforest-eth',
+  github: 'https://github.com/briangu33/serious-websites',
+  inspo: 'https://companyinabox.ai/',
 };
 
 // note: prefer styled-components when possible because semantically easier to debug
@@ -166,16 +163,9 @@ export default function HomePage() {
             <EmailCTA />
           </EmailWrapper>
           <TextLinks>
-            <a href={links.email}>email</a>
-            <a href={links.blog}>blog</a>
+            <a href={links.inspo}>inspo</a>
           </TextLinks>
           <IconLinks>
-            <a className={'link-twitter'} href={links.twitter}>
-              <span className={'icon-twitter'}></span>
-            </a>
-            <a className={'link-telegram'} href={links.telegram}>
-              <span className={'icon-telegram'}></span>
-            </a>
             <a className={'link-github'} href={links.github}>
               <span className={'icon-github'}></span>
             </a>
